@@ -628,13 +628,19 @@ main {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 2rem;
     }
     .hero-image {
         margin-top: 2rem;
         justify-content: center;
+        flex-shrink: 0;
     }
     .floating-icon {
         width: 200px;
+        height: auto;
+        object-fit: contain;
     }
     
     /* Experience */
