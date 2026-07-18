@@ -136,6 +136,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(typeCommand, 100);
             } else {
                 setTimeout(() => {
+                    const typingCursor = document.getElementById('typing-cursor');
+                    if(typingCursor) typingCursor.style.display = 'none';
+                    
                     terminalOutput.innerHTML = `
                         <br>
                         [INFO] Retrieving contact details...<br>
@@ -155,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 terminalAnimated = true;
                 setTimeout(typeCommand, 500);
             }
-        }, { threshold: 0.5 });
+        }, { threshold: 0.15 });
         
         terminalObserver.observe(terminalSection);
     }
