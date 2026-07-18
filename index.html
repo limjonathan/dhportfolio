@@ -16,7 +16,12 @@
     <nav class="navbar">
         <div class="nav-content">
             <h1 class="logo">DH.</h1>
-            <ul class="nav-links">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -295,13 +300,21 @@
         </section>
 
         <section id="contact" class="section">
-            <h2 class="section-title">Contact</h2>
-            <div class="card contact-card">
-                <p>Interested in connecting? Feel free to reach out!</p>
-                <div class="contact-info">
-                    <p><strong>Location:</strong> Berlin, NJ 08009</p>
-                    <p><strong>Phone:</strong> <a href="tel:+18567256810">+1 856 725 6810</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:mrreese314@gmail.com">mrreese314@gmail.com</a></p>
+            <h2 class="section-title">Terminal Access</h2>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="close-btn"></span>
+                        <span class="min-btn"></span>
+                        <span class="max-btn"></span>
+                    </div>
+                    <div class="terminal-title">dylan@it-portfolio:~</div>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div class="terminal-line"><span class="prompt">guest@dylan-sys:~$</span> <span class="typing-text" id="typing-cmd"></span></div>
+                    <div class="terminal-output" id="terminal-output">
+                        <!-- Auto-generated output will go here -->
+                    </div>
                 </div>
             </div>
         </section>
