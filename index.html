@@ -6,428 +6,318 @@
     <title>Dylan Hardy | IT Support Analyst</title>
     <meta name="description" content="Portfolio of Dylan Hardy, IT Support Analyst with expertise in troubleshooting, active directory, and healthcare IT.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="preloader-content">
-            <div class="spinner"></div>
-            <h2>Loading Portfolio...</h2>
-        </div>
-    </div>
-
-    <!-- Background Particles Canvas -->
     <div class="background-container">
-        <canvas id="particle-canvas"></canvas>
+        <!-- Abstract Tech Background Image -->
     </div>
 
-    <!-- Navbar -->
-    <nav class="navbar" id="navbar">
+    <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">DH.</div>
+            <h1 class="logo">DH.</h1>
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
             <ul class="nav-links" id="nav-links">
-                <li><a href="#hero" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#featured" class="nav-link">Accomplishments</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-        <div class="hero-content">
-            <h1 class="hero-title">
-                Hi, I'm <span class="highlight">Dylan Hardy</span>
-            </h1>
-            <p class="hero-subtitle">IT Support Analyst | Systems Specialist</p>
-            <p class="hero-description">
-                Efficient and detail-oriented IT professional with 6+ years of experience in healthcare IT, 
-                enterprise support, and complex system troubleshooting. Proven track record in hardware deployments, 
-                identity management, and cross-functional team collaboration.
-            </p>
-            <div class="hero-actions">
-                <a href="#experience" class="btn primary-btn">View Experience</a>
-                <a href="#contact" class="btn secondary-btn">Get in Touch</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <div class="hero-avatar-container">
-                <div class="hero-avatar">
-                    <div class="avatar-initials">DH</div>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2 class="animate-pop">Hi, I'm <span class="highlight">Dylan Hardy</span></h2>
+                <h3 class="animate-pop delay-1">IT Support Analyst</h3>
+                <p class="animate-pop delay-2">Efficient and detail-oriented IT professional with 6 years of experience, including healthcare IT. Proven expertise in complex system troubleshooting and hardware deployments.</p>
+                <div class="cta-buttons animate-pop delay-3">
+                    <a href="#experience" class="btn primary-btn">View Experience</a>
+                    <a href="#contact" class="btn secondary-btn">Get in Touch</a>
                 </div>
-                <div class="avatar-pulse"></div>
+            </div>
+            <div class="hero-image animate-pop delay-2">
+                <canvas id="particle-canvas"></canvas>
+            </div>
+        </section>
+
+        <!-- Marquee Section -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span>Active Directory</span>
+                <span>Azure</span>
+                <span>ServiceNow</span>
+                <span>Intune</span>
+                <span>Windows Server</span>
+                <span>VMWare</span>
+                <span>BigFix</span>
+                <span>SailPoint</span>
+                <!-- Repeat for continuous scroll -->
+                <span>Active Directory</span>
+                <span>Azure</span>
+                <span>ServiceNow</span>
+                <span>Intune</span>
+                <span>Windows Server</span>
+                <span>VMWare</span>
+                <span>BigFix</span>
+                <span>SailPoint</span>
             </div>
         </div>
-    </section>
 
-    <!-- Marquee Section -->
-    <section class="marquee-section">
-        <div class="marquee-content">
-            <span>Active Directory</span>
-            <span>Azure</span>
-            <span>ServiceNow</span>
-            <span>Intune</span>
-            <span>Windows Server</span>
-            <span>VMWare</span>
-            <span>BigFix</span>
-            <span>SailPoint</span>
-            <span>Office 365</span>
-            <span>SCCM</span>
-            <span>Active Directory</span>
-            <span>Azure</span>
-            <span>ServiceNow</span>
-            <span>Intune</span>
-            <span>Windows Server</span>
-            <span>VMWare</span>
-            <span>BigFix</span>
-            <span>SailPoint</span>
-            <span>Office 365</span>
-            <span>SCCM</span>
-        </div>
-    </section>
+        <!-- By the Numbers Section -->
+        <section id="stats" class="section stats-section">
+            <div class="stats-grid">
+                <div class="stat-card card">
+                    <h3 class="stat-number" data-target="6">0</h3>
+                    <p class="stat-label">Years of IT Experience</p>
+                </div>
+                <div class="stat-card card">
+                    <h3 class="stat-number" data-target="2000">0</h3>
+                    <span class="stat-plus">+</span>
+                    <p class="stat-label">Laptops Deployed</p>
+                </div>
+                <div class="stat-card card">
+                    <h3 class="stat-number" data-target="13">0</h3>
+                    <p class="stat-label">Bank Branches Managed</p>
+                </div>
+                <div class="stat-card card">
+                    <h3 class="stat-number" data-target="100">0</h3>
+                    <span class="stat-percent">%</span>
+                    <p class="stat-label">Customer Satisfaction</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Statistics Section -->
-    <section id="stats" class="stats-section section">
-        <h2 class="section-title">By the Numbers</h2>
-        <div class="stats-grid">
-            <div class="stat-card">
-                <h3 class="stat-number" data-target="6">0</h3>
-                <p class="stat-label">Years of IT Experience</p>
-            </div>
-            <div class="stat-card">
-                <h3 class="stat-number" data-target="2000">0</h3>
-                <span class="stat-plus">+</span>
-                <p class="stat-label">Laptops Deployed</p>
-            </div>
-            <div class="stat-card">
-                <h3 class="stat-number" data-target="13">0</h3>
-                <p class="stat-label">Bank Branches Managed</p>
-            </div>
-            <div class="stat-card">
-                <h3 class="stat-number" data-target="100">0</h3>
-                <span class="stat-percent">%</span>
-                <p class="stat-label">Customer Satisfaction</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-container">
-            <div class="about-text">
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="card about-card">
                 <p>
-                    I am an Efficient and detail-oriented IT Support Analyst with 6+ years of IT experience 
-                    and 2+ years of specialized healthcare IT experience. My expertise lies in troubleshooting 
-                    complex system issues, managing enterprise hardware deployments, and providing exceptional 
-                    customer service in fast-paced environments.
+                    I am an Efficient and detail-oriented IT Support Analyst with 6 years of IT experience and 2 years of healthcare IT Experience.
+                    Proven expertise in troubleshooting complex system issues, managing hardware deployments, and providing exceptional
+                    customer service in fast-paced environments. Successfully led mass deployments of laptops and collaborated with cross-
+                    functional teams to enhance system integration and support. Skilled in Active Directory, ServiceNow, and network
+                    troubleshooting, dedicated to improving IT operations and user satisfaction.
                 </p>
-                <p>
-                    I have successfully led mass deployments of laptops and workstations for healthcare organizations, 
-                    implemented enterprise security initiatives including Multi-Factor Authentication, 
-                    and collaborated with cross-functional teams to enhance system integration and support quality.
-                </p>
-            </div>
-            <div class="about-info">
-                <div class="info-item">
+                <div class="education">
                     <h3>Education</h3>
                     <ul>
                         <li><strong>Camden County College</strong> | Blackwood, NJ (Sept 2019 - Present)</li>
                         <li><strong>Camden County Technical School</strong> | Sicklerville, NJ (High School Diploma, 2015 - 2019)</li>
                     </ul>
                 </div>
-                <div class="info-item">
-                    <h3>Certifications</h3>
-                    <ul>
-                        <li>CompTIA A+</li>
-                        <li>Microsoft 365 Certified: Fundamentals</li>
-                        <li>Azure AD Associate</li>
-                    </ul>
+            </div>
+        </section>
+
+        <!-- Featured Accomplishments -->
+        <section id="featured" class="section">
+            <h2 class="section-title">Featured Accomplishments</h2>
+            <div class="featured-grid">
+                <div class="featured-card card">
+                    <div class="featured-icon">🚀</div>
+                    <h3>Mass Laptop Deployment</h3>
+                    <p>Successfully led the organization-wide mass deployment of laptops and workstations for all Virtua Health personnel, ensuring smooth transitions and zero downtime.</p>
                 </div>
-                <div class="info-item">
-                    <h3>Technical Proficiency</h3>
-                    <div class="skill-tags">
-                        <span>Windows Server</span>
-                        <span>Active Directory</span>
-                        <span>Azure</span>
-                        <span>ServiceNow</span>
-                        <span>Intune</span>
-                        <span>SCCM</span>
-                        <span>PowerShell</span>
-                        <span>VMware</span>
+                <div class="featured-card card">
+                    <div class="featured-icon">🏢</div>
+                    <h3>Company Acquisitions</h3>
+                    <p>Individually organized and prepared materials for major Labcorp company acquisitions, managing all site integrations from Camden County to Cape May County.</p>
+                </div>
+                <div class="featured-card card">
+                    <div class="featured-icon">🔒</div>
+                    <h3>Identity & Security Initiative</h3>
+                    <p>Spearheaded Multi-Factor Authentication implementation across Azure and configured YubiKeys for all bank employees at William Penn Bank, significantly boosting security.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="staggered-container">
+                
+                <!-- Job 1 -->
+                <div class="staggered-item">
+                    <div class="staggered-image">
+                        <img src="job_labcorp.jpg" alt="Labcorp IT Support">
+                    </div>
+                    <div class="staggered-content">
+                        <div class="job-info">
+                            <span class="job-title">IT Field Support Technician II</span>
+                            <span class="company">Labcorp | Haddon Heights, NJ</span>
+                            <span class="date-badge">April 2025 - Present</span>
+                        </div>
+                        <ul>
+                            <li>Troubleshoot and resolve client issues related to Labcorp systems, hardware, and connectivity.</li>
+                            <li>Escalate advanced or second-level system issues to appropriate internal support teams.</li>
+                            <li>Process hardware requests including ordering, setup, installation, and testing.</li>
+                            <li>Individually organize and prepare materials for major company acquisitions.</li>
+                            <li>Collaborate with cross-functional IT teams for seamless system integrations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="staggered-item reverse">
+                    <div class="staggered-image">
+                        <img src="job_virtua.jpg" alt="Virtua Health IT">
+                    </div>
+                    <div class="staggered-content">
+                        <div class="job-info">
+                            <span class="job-title">IT Support Analyst</span>
+                            <span class="company">Virtua Health | Marlton, NJ</span>
+                            <span class="date-badge">Dec 2023 - April 2025</span>
+                        </div>
+                        <ul>
+                            <li>Providing technical support for AVP and VP clients exclusively.</li>
+                            <li>Imaging Dell and HP Workstations and Laptops with Bitlocker configuration.</li>
+                            <li>Traveling to Virtua hospitals and offices to replace, maintain or service Workstations.</li>
+                            <li>Leading mass deployments of laptops for all Virtua personnel.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="staggered-item">
+                    <div class="staggered-image">
+                        <img src="job_burlington.jpg" alt="Burlington Stores IT">
+                    </div>
+                    <div class="staggered-content">
+                        <div class="job-info">
+                            <span class="job-title">IT Support Analyst</span>
+                            <span class="company">Burlington Stores | Burlington, NJ</span>
+                            <span class="date-badge">Feb 2023 - Dec 2023</span>
+                        </div>
+                        <ul>
+                            <li>First level of support for all Burlington Stores and Offices across the nation including Puerto Rico.</li>
+                            <li>Document and resolve tickets through ServiceNow, creating RMAs.</li>
+                            <li>Manage Multi-Factor Authentication for all employees through Microsoft Azure.</li>
+                            <li>Pushing appropriate software through BigFix for all corporate and store devices.</li>
+                            <li>Troubleshooting barcode scanner guns, HP pcs, MS Surfaces and Intel NUCs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="staggered-item reverse">
+                    <div class="staggered-image">
+                        <img src="job_bank.jpg" alt="William Penn Bank IT">
+                    </div>
+                    <div class="staggered-content">
+                        <div class="job-info">
+                            <span class="job-title">Junior Systems Analyst</span>
+                            <span class="company">William Penn Bank | Bristol, PA</span>
+                            <span class="date-badge">April 2022 - Feb 2023</span>
+                        </div>
+                        <ul>
+                            <li>Manage users in Office365 by adding, removing, enforcing MFA.</li>
+                            <li>Deploy Laptops and Workstations and recording the devices in MDM management.</li>
+                            <li>Troubleshooting in Server rooms to install printers, phones and workstations on the proper VLAN.</li>
+                            <li>Configured YubiKeys for Multi-Factor Authentication for every bank employee.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 5 -->
+                <div class="staggered-item">
+                    <div class="staggered-image">
+                        <img src="job_cpap.jpg" alt="CPAP Shop IT">
+                    </div>
+                    <div class="staggered-content">
+                        <div class="job-info">
+                            <span class="job-title">Customer Service / Tech Support</span>
+                            <span class="company">The CPAP Shop | West Berlin, NJ</span>
+                            <span class="date-badge">Aug 2021 - April 2022</span>
+                        </div>
+                        <ul>
+                            <li>Assisting customers in placing orders for CPAP machines and medical supplies.</li>
+                            <li>Troubleshoot machines over the phone as well as remotely.</li>
+                            <li>Worked in the inbound call center and via live chat.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                
+                <div class="skill-category">
+                    <h3>Systems & Networking</h3>
+                    <div class="chip-container">
+                        <span class="chip">Active Directory</span>
+                        <span class="chip">Azure AD</span>
+                        <span class="chip">Intune</span>
+                        <span class="chip">SCCM</span>
+                        <span class="chip">Windows Server</span>
+                        <span class="chip">VMWare</span>
+                        <span class="chip">TCP/IP</span>
+                        <span class="chip">VPN (Global Protect)</span>
+                        <span class="chip">SQL / MySQL</span>
+                        <span class="chip">Firewall Management</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Support & Tools</h3>
+                    <div class="chip-container">
+                        <span class="chip">ServiceNow</span>
+                        <span class="chip">SailPoint</span>
+                        <span class="chip">Office 365 / Exchange</span>
+                        <span class="chip">Google Workspace</span>
+                        <span class="chip">Splashtop / Bomgar</span>
+                        <span class="chip">BigFix</span>
+                        <span class="chip">Help Desk</span>
+                        <span class="chip">Identity & Access Mgmt</span>
+                        <span class="chip">MDM</span>
+                        <span class="chip">Bitlocker</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Hardware & Devices</h3>
+                    <div class="chip-container">
+                        <span class="chip">Laptop/Desktop Imaging</span>
+                        <span class="chip">Dell & HP Workstations</span>
+                        <span class="chip">Zebra Handhelds</span>
+                        <span class="chip">Barcode Scanners</span>
+                        <span class="chip">Printers</span>
+                        <span class="chip">Mobile Devices</span>
+                        <span class="chip">VoIP Phones</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Terminal Access</h2>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="close-btn"></span>
+                        <span class="min-btn"></span>
+                        <span class="max-btn"></span>
+                    </div>
+                    <div class="terminal-title">dylan@it-portfolio:~</div>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div class="terminal-line"><span class="prompt">guest@dylan-sys:~$</span> <span class="typing-text" id="typing-cmd"></span><span class="cursor" id="typing-cursor" style="animation: blink 1s step-start infinite;">_</span></div>
+                    <div class="terminal-output" id="terminal-output">
+                        <!-- Auto-generated output will go here -->
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-        <h2 class="section-title">Professional Experience</h2>
-        <div class="timeline">
-            <!-- Labcorp -->
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-hospital"></i>
-                </div>
-                <div class="timeline-content">
-                    <h3>IT Field Support Technician II</h3>
-                    <h4>Labcorp | Haddon Heights, NJ</h4>
-                    <div class="timeline-date">April 2025 - Present</div>
-                    <ul>
-                        <li>Provide technical support for clinical and administrative staff across multiple Labcorp facilities</li>
-                        <li>Troubleshoot and resolve hardware, software, and connectivity issues affecting patient care systems</li>
-                        <li>Manage hardware lifecycle including procurement, imaging, deployment, and retirement of 2000+ devices</li>
-                        <li>Coordinate with vendors and internal teams for major system upgrades and acquisitions</li>
-                        <li>Maintain accurate inventory records in MDM and asset tracking systems</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- Virtua Health -->
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-heart-pulse"></i>
-                </div>
-                <div class="timeline-content">
-                    <h3>IT Support Analyst</h3>
-                    <h4>Virtua Health | Marlton, NJ</h4>
-                    <div class="timeline-date">Dec 2023 - April 2025</div>
-                    <ul>
-                        <li>Provided enterprise-level IT support for healthcare professionals across 6 hospital locations</li>
-                        <li>Led mass deployment of 1500+ laptops and workstations for clinical staff during system refresh</li>
-                        <li>Managed Windows 10/11 migrations and Office 365 migrations for healthcare workforce</li>
-                        <li>Implemented BitLocker encryption policies for HIPAA compliance across mobile devices</li>
-                        <li>Created and maintained SOPs for hardware deployment and troubleshooting procedures</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- Burlington Stores -->
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-store"></i>
-                </div>
-                <div class="timeline-content">
-                    <h3>IT Support Analyst</h3>
-                    <h4>Burlington Stores | Burlington, NJ</h4>
-                    <div class="timeline-date">Feb 2023 - Dec 2023</div>
-                    <ul>
-                        <li>Supported 1000+ retail locations nationwide including Puerto Rico and US Virgin Islands</li>
-                        <li>Managed enterprise ServiceNow implementation for IT service management and ticketing</li>
-                        <li>Deployed and managed Multi-Factor Authentication for 5000+ corporate and retail employees</li>
-                        <li>Managed endpoint security through BigFix for patch management and software distribution</li>
-                        <li>Provided tier-2 support for POS systems, barcode scanners, and retail-specific hardware</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- William Penn Bank -->
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-university"></i>
-                </div>
-                <div class="timeline-content">
-                    <h3>Junior Systems Analyst</h3>
-                    <h4>William Penn Bank | Bristol, PA</h4>
-                    <div class="timeline-date">April 2022 - Feb 2023</div>
-                    <ul>
-                        <li>Managed Office 365 tenant including user provisioning, licensing, and security configurations</li>
-                        <li>Deployed and managed YubiKey-based Multi-Factor Authentication for all bank employees</li>
-                        <li>Provided technical support for core banking systems and teller hardware</li>
-                        <li>Maintained Active Directory infrastructure including Group Policy and DNS management</li>
-                        <li>Collaborated with security team on incident response and vulnerability remediation</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- CPAP Shop -->
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-head-side-mask"></i>
-                </div>
-                <div class="timeline-content">
-                    <h3>Customer Service / Technical Support</h3>
-                    <h4>The CPAP Shop | West Berlin, NJ</h4>
-                    <div class="timeline-date">Aug 2021 - April 2022</div>
-                    <ul>
-                        <li>Provided technical support for CPAP and BiPAP equipment troubleshooting and configuration</li>
-                        <li>Managed remote patient monitoring equipment and data transmission systems</li>
-                        <li>Handled inbound customer service calls and live chat support for medical equipment inquiries</li>
-                        <li>Maintained inventory and shipping systems for medical supplies and replacement parts</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <h2 class="section-title">Technical Skills</h2>
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3>Systems & Infrastructure</h3>
-                <div class="skill-tags">
-                    <span>Windows Server</span>
-                    <span>Active Directory</span>
-                    <span>Azure AD</span>
-                    <span>Intune</span>
-                    <span>SCCM</span>
-                    <span>VMware ESXi</span>
-                    <span>Hyper-V</span>
-                    <span>Linux Administration</span>
-                    <span>DNS/DHCP</span>
-                    <span>VPN/Network Security</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>Endpoint Management</h3>
-                <div class="skill-tags">
-                    <span>Endpoint Detection & Response</span>
-                    <span>Mobile Device Management</span>
-                    <span>BitLocker Encryption</span>
-                    <span>Apple Business Manager</span>
-                    <span>Jamf Pro</span>
-                    <span>Windows Autopilot</span>
-                    <span>Asset Management</span>
-                    <span>Software Packaging</span>
-                    <span>Group Policy</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>Support & Collaboration</h3>
-                <div class="skill-tags">
-                    <span>ServiceNow ITSM</span>
-                    <span>Microsoft 365</span>
-                    <span>Exchange Online</span>
-                    <span>SharePoint</span>
-                    <span>Teams Administration</span>
-                    <span>Help Desk & Ticketing</span>
-                    <span>Remote Support Tools</span>
-                    <span>Splashtop / Bomgar</span>
-                    <span>Identity & Access Management</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>Scripting & Automation</h3>
-                <div class="skill-tags">
-                    <span>PowerShell</span>
-                    <span>Bash/Shell Scripting</span>
-                    <span>Python Basics</span>
-                    <span>JSON/YAML</span>
-                    <span>REST APIs</span>
-                    <span>Task Scheduler</span>
-                    <span>Azure Logic Apps</span>
-                    <span>Configuration Management</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Accomplishments -->
-    <section id="featured" class="section">
-        <h2 class="section-title">Featured Accomplishments</h2>
-        <div class="featured-grid">
-            <div class="featured-card">
-                <div class="featured-icon">
-                    <i class="fas fa-laptop"></i>
-                </div>
-                <h3>Mass Hardware Deployments</h3>
-                <p>Successfully planned and executed organization-wide deployments of 2000+ laptops and workstations across healthcare, banking, and retail environments with zero downtime and minimal user disruption.</p>
-            </div>
-            <div class="featured-card">
-                <div class="featured-icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <h3>Enterprise Security Initiatives</h3>
-                <p>Spearheaded Multi-Factor Authentication implementations for healthcare and financial institutions, securing access for over 5000 users while maintaining compliance with HIPAA and financial regulations.</p>
-            </div>
-            <div class="featured-card">
-                <div class="featured-icon">
-                    <i class="fas fa-project-diagram"></i>
-                </div>
-                <h3>System Integration Projects</h3>
-                <p>Led cross-functional teams to integrate new hardware and software solutions with existing legacy systems, ensuring seamless transitions and maintaining business continuity during upgrades.</p>
-            </div>
-            <div class="featured-card">
-                <div class="featured-icon">
-                    <i class="fas fa-users"></i>
-                </div>
-                <h3>Customer Service Excellence</h3>
-                <p>Maintained consistently high customer satisfaction ratings (>95%) through proactive communication, timely issue resolution, and user-focused technical support approaches.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2 class="section-title">Get In Touch</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Contact Information</h3>
-                <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Berlin, NJ 08009</span>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+18567256810">+1 856 725 6810</a>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:mrreese314@gmail.com">mrreese314@gmail.com</a>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-link"></i>
-                    <a href="https://linkedin.com/in/dylanhardy" target="_blank">linkedin.com/in/dylanhardy</a>
-                </div>
-            </div>
-            
-            <div class="contact-form">
-                <h3>Send Me a Message</h3>
-                <form id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
-                        <label for="phone">Phone</label>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="How can I help you?" required></textarea>
-                        <label for="message">Message</label>
-                    </div>
-                    <button type="submit" class="btn primary-btn">Send Message</button>
-                </form>
-                <div id="formStatus" class="form-status"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <p>&copy; <span id="currentYear"></span> Dylan Hardy. All Rights Reserved.</p>
-            <div class="footer-links">
-                <a href="#" aria-label="Privacy Policy">Privacy</a>
-                <a href="#" aria-label="Terms of Service">Terms</a>
-            </div>
-        </div>
+        <p>&copy; 2026 Dylan Hardy. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
